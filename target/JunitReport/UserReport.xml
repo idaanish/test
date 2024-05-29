@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="7.856" tests="7" skipped="0" failures="0" errors="0">
+<testcase classname="Adding the users1 to the list" name="Add users1 - Example #1.1" time="3.917">
+<system-out><![CDATA[
+Given user1 is on reqres URL................................................passed
+When user1 enters the "smy" and "analyst"...................................passed
+And user1 hit the users API.................................................passed
+Then users1 are added to list...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adding the users1 to the list" name="Add users1 - Example #1.2" time="0.831">
+<system-out><![CDATA[
+Given user1 is on reqres URL................................................passed
+When user1 enters the "luffy" and "developer"...............................passed
+And user1 hit the users API.................................................passed
+Then users1 are added to list...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adding the users1 to the list" name="update the user1" time="0.532">
+<system-out><![CDATA[
+Given user1 is on reqres URL................................................passed
+When user1 enters name and job..............................................passed
+And user1 click the the api.................................................passed
+Then user data is updated...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adding the users to the list." name="Add user - Example #1.1" time="0.534">
+<system-out><![CDATA[
+Given user is on reqres url.................................................passed
+When user enters the "smy" and "chef".......................................passed
+And user hit the users API..................................................passed
+Then users are added to list................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adding the users to the list." name="Add user - Example #1.2" time="0.588">
+<system-out><![CDATA[
+Given user is on reqres url.................................................passed
+When user enters the "luffy" and "Analyst"..................................passed
+And user hit the users API..................................................passed
+Then users are added to list................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Authorize the user" name="account authorize" time="0.781">
+<system-out><![CDATA[
+Given user open the bookstore api web.......................................passed
+When use click on the authorize option......................................passed
+Then it should authorize the user...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Get all the users list" name="Get all user   #o" time="0.332">
+<system-out><![CDATA[
+Given is on reqres url......................................................passed
+When user click users API...................................................passed
+Then all the users is displayed.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
